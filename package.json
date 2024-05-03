@@ -1,0 +1,32 @@
+{
+  "name": "api_gestion_utilisateur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-pg": "^5.12.1",
+    "@prisma/client": "^5.12.1",
+    "@types/node": "^20.12.7",
+    "bcrypt": "^5.1.1",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "node-mailjet": "^6.0.5",
+    "pg": "^8.11.5",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/pg": "^8.11.5",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
